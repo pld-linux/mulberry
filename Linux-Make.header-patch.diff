@@ -1,0 +1,16 @@
+Index: Linux/Make.header
+===================================================================
+--- Linux/Make.header	(revision 105)
++++ Linux/Make.header	(working copy)
+@@ -88,8 +88,8 @@
+ 			${LINK_STATIC} \
+ 				-ljx-${JX_LIB_VERSION} \
+ 				-ljcore-${JX_LIB_VERSION} \
++			${LINK_DYNAMIC} \
+ 				-lACE-${ACE_LIB_VERSION} \
+-			${LINK_DYNAMIC} \
+ 			${J_X11_LIBS} \
+ 			-lldap -llber \
+ 			${LINK_STATIC} \
+
+]
